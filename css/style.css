@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/css/hero.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    margin: 20px auto;
+    font-size: 6rem;
+}
+
+label{
+    font-size:3rem;
+}
+
+input{
+    border-radius: 0;
+    padding: 1em;
+    outline-style:none;
+}
+
+button{
+    border-radius: 0px;
+    margin: 30px;
+    padding: 20px auto;
+    background-color: #689C46;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+}
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 3.5rem;
+    }
+    label{
+        font-size: 2rem;
+    }
+ }
+
